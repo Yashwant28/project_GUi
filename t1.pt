@@ -1,0 +1,203 @@
+1 BHK Apartment
+2 BHK Apartment
+3 BHK Apartment
+4 BHK Apartment
+5 BHK Apartment
+6 BHK Apartment
+7 BHK Apartment
+8 BHK Apartment
+
+Residential Plot
+
+1 RK Apartment
+2 Rk Apartment
+3 Rk Apartment
+4 Rk Apartment
+5 Rk Apartment
+
+1 BHK Villa
+2 BHK Villa
+3 BHK Villa
+4 BHK Villa
+5 BHK Villa
+
+1 RK Independent House
+1 BHK Independent House
+2 BHK Independent House
+3 BHK Independent House
+4 BHK Independent House
+5 BHK Independent House
+6 BHK Independent House
+7 BHK Independent House
+8 BHK Independent House
+
+1 RK Independent Floor
+1 BHK Independent Floor
+2 BHK Independent Floor
+3 BHK Independent Floor
+4 BHK Independent Floor
+5 BHK Independent Floor
+6 BHK Independent Floor
+
+1 BHK penthouse
+2 BHK penthouse
+3 BHK penthouse
+4 BHK penthouse
+5 BHK penthouse
+6 BHK penthouse
+
+1 BHK studio apartment
+2 BHK studio apartment
+3 BHK studio apartment
+
+1 BHK Other Residential
+2 BHK Other Residential
+3 BHK Other Residential
+4 BHK Other Residential
+
+
+
+
+locality = ['Deccan Gymkhana', 'Kharadi', 'Sus', 'Bavdhan', 'Mundhwa', 'Viman Nagar'
+ 'Baner', 'Law collage Road', 'Mahalunge', 'Bhukum', 'Hinjewadi', 'Hadapsar'
+ 'Hadapsar Gaon', 'Sasane Nagar', 'NIBM Annex Mohammadwadi', 'Salunke Vihar'
+ 'NIBM', 'Wagholi', 'Pimpri', 'Kondhwa', 'Undri', 'Bibwewadi', 'Manjari'
+ 'Uday Baug', 'Ganesh Nagar', 'Kale Padal', 'Baner Pashan Link Road'
+ 'Model Colony', 'Bhawani Peth', 'Erandwane', 'Kothrud', 'Wanowrie', 'Wakad'
+ 'Balewadi High Street', 'Prabhat Road', 'Pashan', 'Ghole Road', 'Moshi'
+ 'Bhugaon', 'Shivaji Nagar', 'Karve Nagar', 'Senapati Bapat Road', 'Rahatani'
+ 'Bopodi', 'Balewadi', 'Fergusson College Road', 'Bhandarkar Road', 'NIBM Road'
+ 'Pimple Saudagar', 'Ravet', 'Talegaon Dabhade', 'Sahakar Nagar II'
+ 'Koregaon Park', 'Nere', 'Pisoli', 'Bhoslenagar', 'NIBM Annexe', 'Akurdi'
+ 'Aundh Gaon', 'Kalyani Nagar', 'Wadgaon Sheri', 'Aundh', 'Veerbhadra Nagar'
+ 'Mulshi', 'Magarpatta', 'Vishrantwadi', 'Sanewadi', 'Phursungi'
+ 'Pimple Nilakh', 'Keshav Nagar', 'Aundh Annexe', 'Kondwa khurd road'
+ 'Mahadev Nagar', 'Uruli Devachi', 'Baif Road', 'Jejuri', 'Katraj'
+ 'Khed Shivapur', 'Bhor', 'Handewadi Road', 'Uruli Kanchan', 'Chandkhed', 'Loni'
+ 'Mayureshwar', 'Saswad', 'wadebolhai', 'Varale', 'Mahabaleshwar'
+ 'Lonavala Road', 'Loni Kalbhor', 'Wakad road', 'Wanwadi', 'VIT College Road'
+ 'Dhanori Road', 'Vadgaon Sheri', 'Kedagaon', 'Baramati', 'Fatima Nagar'
+ 'Sopan Baug', 'ITI road', 'bhekarai nagar', 'Handewadi', 'Camp'
+ 'Bhusari colony left', 'Lulla Nagar', 'Anand Park', 'Dhayari', 'Warje'
+ 'Ranjangaon', 'Bhusari colony right', 'Bhosle Nagar', 'Ashok Nagar'
+ 'Tathawade', 'Magarpatta Road', 'Salisbury Park', 'Parihar Chowk', 'Gahunje'
+ 'Baner Road', 'Kondhwa Budruk', 'Ambedkar Nagar', 'Mohamadwadi'
+ 'Kothrud Depot Road', 'Boat Club Road', 'Chinchwad', 'Happy Colony Lane'
+ 'Talegaon', 'Badhan Nagar', 'Ambegaon Budruk', 'Thergaon', 'locality'
+ 'Yerawada', 'Sangamvadi', 'Kirkatwadi', 'Lohegaon', 'Bund Garden'
+ 'Dhanukar Colony', 'Pimple Gurav', 'Sus Gaon', 'Dhole Patil Road'
+ 'Pune Solapur Road', 'Old Sanghvi', 'Shastri Nagar', 'Sadashiv Peth'
+ 'Dhanori', 'Kalyani Nagar Annexe', 'Shewalewadi', 'Morewadi', 'Airport Road'
+ 'Chikhali', 'Punawale', 'Bhumkar Nagar', 'Wakadkar Wasti', 'Kaspate Vasti'
+ 'Bhujbal Vasti', 'Rasikwadi', 'Tingre Nagar', 'pimprigaon', 'New Sanghvi'
+ 'Pancard Club Road', 'Mamurdi', 'Sholapur Road', 'Maval', 'Ubale Nagar'
+ 'Narhe', 'Hadapsar Fursungi Road', 'Kalewadi Main', 'Nigdi'
+ 'Dhayari Ganesh Nagar', 'Siddharth nagar', 'Dhayari Phata', 'Pashan Sus Road'
+ 'Loni Raiway Station Road', 'Bakori Road', 'Pune Mumbai Highway'
+ 'PuneSolapur Highway', 'Ambegaon Bk', 'Manik Baug', 'Panchgani Wai Road'
+ 'Bhau Patil Road', 'Kirti Nagar', 'Shankar Kalat Nagar'
+ 'bavdhan patil nagar', 'bhusari colony', 'Bhosari', 'katraj kondhwa road'
+ 'Vadgaon Budruk', 'Undri Hadapsar Road', 'Parvati'
+ 'Moshi Pradhikaran PimpriChinchwad', 'Warje Malwadi', 'Tanaji Nagar'
+ 'Bibwewadi Kondhwa Road', 'Pirangut', 'Manjari Budruk', 'Shikrapur'
+ 'Nasrapur', 'Pune Satara Road', 'Charholi Budruk', 'Giridhar Nagar', 'Chakan'
+ 'Pune Mumbai Expressway', 'Sinhgad Road', 'Narhe Gaon', 'Saswad Road'
+ 'Kasarwadi', 'Gokul Nagar', 'Marunji', 'Karve Road', 'Talegaon Dhamdhere'
+ 'Manchar', 'Koregaon Park Annexe', 'Lohegaon Road'
+ 'Jejuri Saswad Hadapsar Road', 'Market yard', 'Nandel Fata Pune'
+ 'Aundh Baner Link Road', 'Alandi', 'Marunji Road', 'Kharabwadi'
+ 'Nanded City Sinhgad Road', 'Deep Bunglow chawk', 'Shivapur', 'Jambhul'
+ 'Mayur Colony', 'Tukaram Nagar', 'Mumbai Pune Highway', 'Malwadi Hadapsar'
+ 'Kiwale', 'DhanoriLohegaon Road', 'Parvati Darshan'
+ 'Hadapsar Handewadi road', 'Ambegaon Khurd', 'Hinjewadi Marunji Road'
+ 'hingne Khurd', 'EON Free Zone', 'Balaji Nagar', 'Bhavani Peth'
+ 'Sahakar Nagar', 'Dighi', 'Koregaon Bhima', 'Manik Bagh', 'sinhagad road'
+ 'Sector No1 Bhosari', 'Lonikand', 'Parkhe Vasti', 'Dehu Road', 'Kalewadi'
+ 'Ambe Gaon', 'Kasarsai', 'Kanhe', 'NDA Pashan Road', 'Tulaja Bhawani Nagar'
+ 'Pragati Nagar', 'kesnand', 'Pune Mumbai Road', 'Guru Nanak Nagar'
+ 'Kudale Baug', 'Baner Balewadi road', 'Dehu', 'Nilgiri Lane', 'Bakhori'
+ 'Gajanan Nagar', 'Kondhawe Dhawade', 'Indrayani Nagar Sector 2', 'Sanaswadi'
+ 'Shivane', 'Balewadi Road', 'Aditya Birla Hospital Marg', 'BT Kawde'
+ 'Panshet Ghol Road', 'Rasta Peth', 'bibvewadi', 'Ghodegaon'
+ 'Jambhulwadi Road', 'Someshwarwadi', 'Benkar Nagar', 'Somatane Phata'
+ 'Kondhwa Khurd', 'Panshet', 'DY Patil Road', 'Yewalewadi', 'Porwal Road'
+ 'Paud Rd', 'Pune Nagar Road', 'Shahunagar', 'BT Kawade Road', 'Khandala'
+ 'Pune Pandharpur Road', 'Moraya Ganapati Mandir Road', 'Shiv Colony'
+ 'Satara road', 'Medankarwadi', 'Manjri Village Road', 'khamboli'
+ 'charholi Khurd', 'Chinchwad Gaon Road', 'Shirur', 'Mangdewadi'
+ 'Madhav Nagar', 'Dapodi', 'Daund', 'Chinchwad Station Road', 'Sinhagad Fort'
+ 'Chikali Road', 'Lavasa', 'Wadki', 'Raigad District', 'Hinjewadi Phase 1'
+ 'konark avenue 9', 'Navi Peth', 'Ambegaon Road', 'Parvati Gaon'
+ 'Pimpri Chinchwad', 'Kalwad Area', 'Bund Garden Road', 'Pradhikaran Nigdi'
+ 'Ambegaon Pathar', 'Kamshet', 'Sun City Road', 'Bhairav Nagar', 'Bebadohal'
+ 'Rihe', 'Kondhwa Bk', 'Sus Road', 'Karjat Kashele Khandas Road', 'Sathe Wasti'
+ 'Mangaon', 'Walha Railway StationSukalwadi Road', 'Tadiwala Road'
+ 'Parandwadi Road', 'Rahatani Rajgad Colony', 'Dange Chowk Road'
+ 'New DP Road', 'Aundh Road', 'Hanuman Nagar', 'Perugate', 'Swaraj Nagari'
+ 'Vadgaon Maval', 'Pune Station', 'Wadgaon Shinde Road', 'Sakore Nagar'
+ 'Mundhwa Manjari Road', 'Wakad Chowk Road', 'Yavat', 'Nana Peth'
+ 'Alandi Road', 'Kasar Amboli', 'Vishal Nagar', 'Tukai Darshan'
+ 'Keshav Nagar Road', 'Sanjay Park', 'Urbangram Kirkatwadi Road'
+ 'Thite Nagar', 'NIBM Post Office Road', 'pune saswad road'
+ 'Nilanjali Society', 'Sant Nagar Lohegoan', 'Anand Nagar', 'Phaltan'
+ 'Kanhephata', 'Satavwadi', 'MulshiPaud Road', 'Pune Bengaluru Highway'
+ 'Dhanakwadi', 'Raje Shivaji Nagar PimpriChinchwad', 'Mangaldas Road'
+ 'Burhani Colony Road', 'Manohar Nagar', 'Swargate', 'Katarkhadak'
+ 'Trimurti Vihar', 'paud', 'Pathare Vasti Road', 'Chintamani nagar'
+ 'Kamgar Nagar PimpriChinchwad', 'Chincholi Dehu Road', 'Nighoje'
+ 'Yashwant nagar', 'Kendriya Vihar Road PimpriChinchwad'
+ 'Wakad Hinjewadi Road', 'Dattanagar', 'Magarpatta City', 'Omkar Colony Road'
+ 'Shankar Sheth Road', 'Kunal Icon Road', 'Nanded Phata'
+ 'Pimpri Kalewadi Link Road', 'Kalas'
+ 'Kumar aangan society opposite shah hospital Yerwada Pune 411006'
+ 'Hadapsar Saswad Jejuri Road'
+ 'Chikhali Pimpri Chinchwad New Town Development Authority', 'Shirwal'
+ 'Nigdi Sector 21', 'Vighnaharta Nagar', 'Old Mumbai Pune Highway'
+ 'Bijali Nagar PimpriChinchwad', 'Ghorpadi', 'Hinjawadi Phase 3'
+ 'Kedgaon Station Road', 'Somwar Peth', 'Khandve Nagar', 'khese park'
+ 'Talwade', 'Kurkum MIDC', 'Mangal Nagar', 'Nehru Nagar', 'Papde Wasti'
+ 'Kambre Kd Deshmukhwadi Road', 'Nagpur Chal', 'Ajmera colony', 'New Sangavi'
+ 'Krishnanagar Road', 'Sunita Nagar', 'Chakan Talegaon Road'
+ 'Vastu Udyog Road', 'Jambhulwadi', 'Dattavadi', 'Chikhali Road', 'Narhe Road'
+ 'north hadapsar', 'Gadital', 'National Highway 48', 'Dhankawadi Road'
+ 'Sun City', 'Pratik Nagar', 'Sukhsagar Nagar', 'Kad Nagar', 'Phase 3 Pune'
+ 'Wadgaon Budruk', 'Laxmi Nagar', 'Bavdhan Khurd', 'PuneSatara Road', 'Bopkhel'
+ 'Baner Gaon', 'Varanasi Society Internal Road', 'Guruwar Peth', 'hinjawadi'
+ 'Askarwadi', 'Devachi Urli', 'Pune Link Road', 'Vijay Nagar'
+ 'Ganeshkhind Road', 'Kolhewadi', 'Hinjewadi Phase 2'
+ 'Gera Emerald City Road', 'DSK Road', 'Bhumkar Bridge'
+ 'Hinjewadi Phase 2 Road', 'Malwadi', 'Satar Nagar', 'Pargaon'
+ 'Naigaon Peth Road', 'Manjari Khurd', 'Wadagaon Road', 'Kolwadi'
+ 'Raikar Mala Road', 'Hadapsar Tukai Nagar', 'Padmavati', 'Nanded'
+ 'MIT College Road', 'panchwati', 'Dombewadi Road', 'Gulab Nagar Pune'
+ 'wanwari', 'Mukund Nagar', 'Bharati Vidyapeeth', 'Gultekdi', 'karvenagar'
+ 'Shankarseth Road', 'Indira Nagar', 'Purnanagar', 'shahu nagar'
+ 'NIBM Junction', 'Walvekar Nagar', 'Shukrawar Peth', 'SHIVAJI HSG SOC'
+ 'Pingale Wasti', 'JM Road', 'Mohammed wadi', 'Pan Card Road', 'Theur'
+ 'Upper Indira Nagar', 'Samarth Colony', 'Ram Nagar', 'Ingawale Nagar'
+ 'Tungarli', 'Patwardhan Baug Road', 'Baner Highway Side Road'
+ 'Lokmanya Nagar', 'DSK Vishwa Road', 'Meeta Nagar', 'Mahatma Society'
+ 'Kedari Nagar', 'Amanora Park Town', 'Gujarat Colony Road', 'Old Mumbai Road'
+ 'Kothrud Bus Stand Road', 'Pimple Nilakh Road', 'Laxman Nagar'
+ 'Law College Rd', 'Shedge Vasti PimpriChinchwad'
+ 'Bhatewara Nagar Chinchwad', 'Mohan Nagar']
+ 
+ 
+
+
+
+cb1.addItem("5 BHK Apartment")
+		cb1.addItem("6 BHK Apartment")
+		cb1.addItem("7 BHK Apartment")
+		cb1.addItem("8 BHK Apartment")
+		cb1.addItem("Residential Plot")
+		cb1.addItem("1 RK Apartment")
+		cb1.addItem("2 RK Apartment")
+		cb1.addItem("3 RK Apartment")
+		cb1.addItem("4 RK Apartment")
+		cb1.addItem("5 RK Apartment")
+		cb1.addItem("1 BHK Villa")
+		cb1.addItem("2 BHK Villa")
+		cb1.addItem("3 BHK Villa")
+		cb1.addItem("4 BHK Villa")
+		cb1.addItem("5 BHK Villa")

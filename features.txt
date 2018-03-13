@@ -1,0 +1,110 @@
+
+
+main features = 
+
+    'area' ++ 
+
+    'bhk'++,
+    
+     'carpetarea'++
+
+    , 'pricepersquare' ++
+
+    'Vaastu Compliant'++ 
+
+    'locality', ++
+    
+    'neworold' ++
+
+    'facing' ++,
+    
+     'floor' ++
+
+    'additionalrooms' ++
+
+    'possesiondate' ++
+
+    'status' ++
+
+
+
+ mid level features = 
+
+        age',
+        
+         ,
+       'balconies', ++
+       
+       'bathroom', ++
+       
+       , 'opensides', ++
+       
+        'overlooking', ++
+        
+        'ownership' ++
+        
+         ########## 'additionalrooms', ++ 
+         
+         ','projectname', ++
+
+       'roadfacing', ++
+       
+       , 'totalfloor' ++
+
+
+
+
+
+
+
+ Amenities  features = 
+    'Lift Available',   :  ['Yes' 'No' nan]
+    'Car Parking',      :  ['Yes' 'No' nan]
+    'Power Backup',     :  ['Yes' 'No' nan] 
+    '24 X 7 Security',  :  ['Yes' 'No' nan] 
+    'Children's play area', :  ['Yes' 'No' nan]
+    'Club House',  :  ['Yes' 'No' nan]
+    'Gymnasium', :  ['Yes' 'No' nan]
+    'Swimming Pool',  :  ['Yes' 'No' nan]
+    'Sports Facility',  :  ['Yes' 'No' nan] 
+    'Indoor Games',   :  ['Yes' 'No' nan]
+    'Jogging Track',    :  ['Yes' 'No' nan]
+    'Maintenance Staff',  :  ['Yes' 'No' nan]
+    'Intercom',   :  ['Yes' 'No' nan]
+    'Golf Course',  :  ['Yes' 'No' nan] 
+    'Cafeteria',   :  ['Yes' 'No' nan]
+    'Rain Water Harvesting',   :  ['Yes' 'No' nan]
+    'Staff Quarter',   :  ['Yes' 'No' nan]
+    'Multipurpose Room',  :  ['Yes' 'No' nan] 
+    'Landscaped Gardens',  :  ['Yes' 'No' nan]
+    'Shopping Mall',   :  ['Yes' 'No' nan]
+    'School',   :  ['Yes' 'No' nan]
+    'Hospital',   :  ['Yes' 'No' nan]
+    'ATM',   :  ['Yes' 'No' nan]
+    'AC',   :  ['Yes' 'No' nan]
+    'Wardrobe',  :  ['Yes' 'No' nan] 
+    'TV',  :  ['Yes' 'No' nan]
+    'Refrigerator',  :  ['Yes' 'No' nan] 
+    'Sofa',   :  ['Yes' 'No' nan]
+    'Washing Machine',  :  ['Yes' 'No' nan]
+    'Wifi',   :  ['Yes' 'No' nan]
+    'Microwave',  :  ['Yes' 'No' nan]
+    'Dining Table',  :  ['Yes' 'No' nan] 
+    'Gas connection',   :  ['Yes' 'No' nan] 
+    'BED'  :  ['Yes' 'No' nan]
+       
+       
+Target varibale = 
+
+'price'
+
+
+
+
+[nan '3 rooms( study room, servant room, pooja room )'
+ '2 rooms( study room, pooja room )' '1 rooms( pooja room )'
+ '1 rooms( servant room )' '1 rooms( study room )'
+ '2 rooms( study room, servant room )'
+ '2 rooms( servant room, pooja room )' 'additionalrooms']
+ 
+ 
