@@ -201,6 +201,7 @@ class Window(QtGui.QMainWindow):
 		
 	def next_page(self):	
 		print("opening next page")
+		os.system("python fourth_page.py")
 		global balconies,bathroom,opensides,overlooking,ownership,projectname,roadfaceing,age,totalfloor
 		print(balconies)
 		print(bathroom)
@@ -218,16 +219,7 @@ class Window(QtGui.QMainWindow):
 	
 	def predict_page(self):	
 		print("opening next page")
-		global balconies,bathroom,opensides,overlooking,ownership,projectname,roadfaceing,age,totalfloor
-		print(balconies)
-		print(bathroom)
-		print(opensides)
-		print(overlooking)
-		print(ownership)
-		print(projectname)
-		print(roadfaceing)
-		print(age)
-		print(totalfloor)
+		os.system("python output_page.py")
 		global output
 		output = [str(balconies),str(bathroom),str(opensides),str(overlooking),str(ownership),str(projectname),str(roadfaceing),str(age),str(totalfloor)]
 		print(output)

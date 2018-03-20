@@ -58,40 +58,40 @@ main features =
 
 
  Amenities  features = 
-    'Lift Available',   :  ['Yes' 'No' nan]
-    'Car Parking',      :  ['Yes' 'No' nan]
-    'Power Backup',     :  ['Yes' 'No' nan] 
-    '24 X 7 Security',  :  ['Yes' 'No' nan] 
-    'Children's play area', :  ['Yes' 'No' nan]
-    'Club House',  :  ['Yes' 'No' nan]
-    'Gymnasium', :  ['Yes' 'No' nan]
-    'Swimming Pool',  :  ['Yes' 'No' nan]
-    'Sports Facility',  :  ['Yes' 'No' nan] 
-    'Indoor Games',   :  ['Yes' 'No' nan]
-    'Jogging Track',    :  ['Yes' 'No' nan]
-    'Maintenance Staff',  :  ['Yes' 'No' nan]
-    'Intercom',   :  ['Yes' 'No' nan]
-    'Golf Course',  :  ['Yes' 'No' nan] 
-    'Cafeteria',   :  ['Yes' 'No' nan]
-    'Rain Water Harvesting',   :  ['Yes' 'No' nan]
-    'Staff Quarter',   :  ['Yes' 'No' nan]
-    'Multipurpose Room',  :  ['Yes' 'No' nan] 
-    'Landscaped Gardens',  :  ['Yes' 'No' nan]
-    'Shopping Mall',   :  ['Yes' 'No' nan]
-    'School',   :  ['Yes' 'No' nan]
-    'Hospital',   :  ['Yes' 'No' nan]
-    'ATM',   :  ['Yes' 'No' nan]
-    'AC',   :  ['Yes' 'No' nan]
-    'Wardrobe',  :  ['Yes' 'No' nan] 
-    'TV',  :  ['Yes' 'No' nan]
-    'Refrigerator',  :  ['Yes' 'No' nan] 
-    'Sofa',   :  ['Yes' 'No' nan]
-    'Washing Machine',  :  ['Yes' 'No' nan]
-    'Wifi',   :  ['Yes' 'No' nan]
-    'Microwave',  :  ['Yes' 'No' nan]
-    'Dining Table',  :  ['Yes' 'No' nan] 
-    'Gas connection',   :  ['Yes' 'No' nan] 
-    'BED'  :  ['Yes' 'No' nan]
+    'Lift Available',   :  ['Yes','No']         ++
+    'Car Parking',      :  ['Yes' 'No' nan]     ++
+    'Power Backup',     :  ['Yes' 'No' nan]     ++
+    '24 X 7 Security',  :  ['Yes' 'No' nan]     ++
+    'Children's play area', :  ['Yes' 'No' nan] ++
+    'Club House',  :  ['Yes' 'No' nan]          ++
+    'Gymnasium', :  ['Yes' 'No' nan]            ++
+    'Swimming Pool',  :  ['Yes' 'No' nan]       ++
+    'Sports Facility',  :  ['Yes' 'No' nan]     ++
+    'Indoor Games',   :  ['Yes' 'No' nan]       ++
+    'Jogging Track',    :  ['Yes' 'No' nan]     ++
+    'Maintenance Staff',  :  ['Yes' 'No' nan]   ++  
+    'Intercom',   :  ['Yes' 'No' nan]           ++
+    'Golf Course',  :  ['Yes' 'No' nan]         ++
+    'Cafeteria',   :  ['Yes' 'No' nan]          ++
+    'Rain Water Harvesting',   :  ['Yes' 'No' nan] ++
+    'Staff Quarter',   :  ['Yes' 'No' nan]      ++
+    'Multipurpose Room',  :  ['Yes' 'No' nan]   ++
+    'Landscaped Gardens',  :  ['Yes' 'No' nan]  ++
+    'Shopping Mall',   :  ['Yes' 'No' nan]      ++
+    'School',   :  ['Yes' 'No' nan]             ++
+    'Hospital',   :  ['Yes' 'No' nan]           ++           
+    'ATM',   :  ['Yes' 'No' nan]                ++
+    'AC',   :  ['Yes' 'No' nan]                 ++
+    'Wardrobe',  :  ['Yes' 'No' nan]            ++
+    'TV',  :  ['Yes' 'No' nan]                  ++
+    'Refrigerator',  :  ['Yes' 'No' nan]        ++
+    'Sofa',   :  ['Yes' 'No' nan]               ++
+    'Washing Machine',  :  ['Yes' 'No' nan]     ++
+    'Wifi',   :  ['Yes' 'No' nan]               ++
+    'Microwave',  :  ['Yes' 'No' nan]           ++
+    'Dining Table',  :  ['Yes' 'No' nan]        ++
+    'Gas connection',   :  ['Yes' 'No' nan]     ++
+    'BED'  :  ['Yes' 'No' nan]                  ++
        
        
 Target varibale = 

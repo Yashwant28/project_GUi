@@ -268,21 +268,7 @@ class Window(QtGui.QMainWindow):
 	
 	def predict_page(self):	
 		print("opening next page")
-		os.system("python third_page.py")
-		global area,bhk,facing,carpetarea,pricepersquare,Vaastu_Compliant,neworold,locality,floor,additionalrooms,possesiondate,status
-		print(area)
-		print(bhk)
-		print(facing)
-		print(carpetarea)
-		print(pricepersquare)
-		print(Vaastu_Compliant)
-		print(neworold)
-		print(locality)
-		print(floor)
-		print(additionalrooms)
-		print(possesiondate)
-		print(status)
-		global output
+		os.system("python output_page.py")
 		output = [str(area),str(bhk),str(facing),str(carpetarea),str(pricepersquare),str(Vaastu_Compliant),str(neworold),str(locality),str(floor),str(additionalrooms),str(possesiondate),str(status)]
 		print(output)
 		sys.exit()
