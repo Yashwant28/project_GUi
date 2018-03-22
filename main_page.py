@@ -16,7 +16,7 @@ class Window(QtGui.QMainWindow):
 	def home(self):
 		self.setGeometry(50,50,800,600)
 		self.setWindowTitle("The Prediction System")
-		self.setWindowIcon(QtGui.QIcon('1.jpg'))
+		self.setWindowIcon(QtGui.QIcon('logo.jpg'))
 		
 		extractAction1 = QtGui.QAction("&New Window",self)
 		extractAction1.setShortcut("Ctrl+N")
@@ -90,11 +90,11 @@ class Window(QtGui.QMainWindow):
 		
 	def next_page(self):	
 		print("opening next page")
-		os.system("python second_page.py")
 		global noy
 		global eoy
-		print(noy)
-		print(eoy)
+		print "name : ",str(noy)
+		print "email : ",str(eoy)
+		os.system("python second_page.py")
 		sys.exit()
 		
 	def close_application(self):

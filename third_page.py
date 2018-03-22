@@ -4,7 +4,7 @@ from PyQt4 import QtGui, QtCore
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 
-balconies = bathroom = opensides = overlooking = ownership = projectname = roadfaceing = age = totalfloor = ""
+balconies1 = bathroom1 = opensides1 = overlooking1 = ownership1 = projectname1 = roadfaceing1 = age1 = totalfloor1 = ""
 output = ""
 
 class Window(QtGui.QMainWindow):
@@ -16,7 +16,7 @@ class Window(QtGui.QMainWindow):
 	def home(self):
 		self.setGeometry(0,0,1500,1500)
 		self.setWindowTitle("The Prediction System")
-		self.setWindowIcon(QtGui.QIcon('1.jpg'))
+		self.setWindowIcon(QtGui.QIcon("logo.jpg"))
 		
 		extractAction1 = QtGui.QAction("&New Window",self)
 		extractAction1.setShortcut("Ctrl+N")
@@ -108,14 +108,14 @@ class Window(QtGui.QMainWindow):
 		self.comboBox5.resize(300,30)
 		self.comboBox5.currentIndexChanged.connect(self.ownership_menu)
 		
-		l9 = QtGui.QLabel(self)
+		'''l9 = QtGui.QLabel(self)
 		l9.setText("projectname: ")
    		l9.move(75,400)
 		self.comboBox6 = QtGui.QComboBox(self)
 		self.comboBox6.addItems(['55','66','77'])
 		self.comboBox6.move(160,400)
 		self.comboBox6.resize(300,30)
-		self.comboBox6.currentIndexChanged.connect(self.projectname_menu)
+		self.comboBox6.currentIndexChanged.connect(self.projectname_menu)'''
 		
 		l10 = QtGui.QLabel(self)
 		l10.setText("roadfacing: ")
@@ -138,10 +138,10 @@ class Window(QtGui.QMainWindow):
 		
 		l12 = QtGui.QLabel(self)
 		l12.setText("totalfloor: ")
-   		l12.move(75,550)
+   		l12.move(75,400)
    		self.name_line = QtGui.QLineEdit(self)
 		self.name_line.textChanged.connect(self.totalfloor_text)
-		self.name_line.move(160,550)
+		self.name_line.move(160,400)
 		self.name_line.resize(300,30)		
 		
 		flo = QtGui.QFormLayout()
@@ -163,66 +163,68 @@ class Window(QtGui.QMainWindow):
 		self.show()
 	
 	def balconies_menu(self):
-		global balconies
-		balconies = self.comboBox1.currentText() 
+		global balconies1
+		balconies1 = self.comboBox1.currentText() 
 		    
         					
 	def bathroom_menu(self):
-		global bathroom
-		bathroom = self.comboBox2.currentText()
+		global bathroom1
+		bathroom1 = self.comboBox2.currentText()
 	
 	def opensides_menu(self):
-	    global opensides
-	    opensides = self.comboBox3.currentText()
+	    global opensides1
+	    opensides1 = self.comboBox3.currentText()
 	
 	def overlooking_menu(self):
-	    global overlooking
-	    overlooking = self.comboBox4.currentText()
+	    global overlooking1
+	    overlooking1 = self.comboBox4.currentText()
 	    
 	def ownership_menu(self):
-	    global ownership
-	    ownership = self.comboBox5.currentText()
+	    global ownership1
+	    ownership1 = self.comboBox5.currentText()
 	    
 	def projectname_menu(self):
-	    global projectname
-	    projectname = self.comboBox6.currentText()
+	    global projectname1
+	    #projectname1 = self.comboBox6.currentText()
 	
 	def roadfaceing_menu(self):
-	    global roadfaceing
-	    roadfaceing = self.comboBox7.currentText()
+	    global roadfaceing1
+	    roadfaceing1 = self.comboBox7.currentText()
 	
 	def age_menu(self):
-	    global age
-	    age = self.comboBox8.currentText()
+	    global age1
+	    age1 = self.comboBox8.currentText()
 	    
 	def totalfloor_text(self):
-	    global totalfloor
-	    totalfloor = self.name_line.text()
+	    global totalfloor1
+	    totalfloor1 = self.name_line.text()
 		
 	def next_page(self):	
 		print("opening next page")
-		os.system("python fourth_page.py")
-		global balconies,bathroom,opensides,overlooking,ownership,projectname,roadfaceing,age,totalfloor
-		print(balconies)
-		print(bathroom)
-		print(opensides)
-		print(overlooking)
-		print(ownership)
-		print(projectname)
-		print(roadfaceing)
-		print(age)
-		print(totalfloor)
+		
+		global balconies1,bathroom1,opensides1,overlooking1,ownership1,projectname1,roadfaceing1,age1,totalfloor1
+		print(balconies1)
+		print(bathroom1)
+		print(opensides1)
+		print(overlooking1)
+		print(ownership1)
+		#print(projectname1)
+		print(roadfaceing1)
+		print(age1)
+		print(totalfloor1)
 		global output
-		output = [str(balconies),str(bathroom),str(opensides),str(overlooking),str(ownership),str(projectname),str(roadfaceing),str(age),str(totalfloor)]
+		output = [str(balconies1),str(bathroom1),str(opensides1),str(overlooking1),str(ownership1),str(roadfaceing1),str(age1),str(totalfloor1)]
 		print(output)
+		os.system("python fourth_page.py")
 		sys.exit()
 	
 	def predict_page(self):	
 		print("opening next page")
-		os.system("python output_page.py")
+		
 		global output
-		output = [str(balconies),str(bathroom),str(opensides),str(overlooking),str(ownership),str(projectname),str(roadfaceing),str(age),str(totalfloor)]
+		output = [str(balconies1),str(bathroom1),str(opensides1),str(overlooking1),str(ownership1),str(roadfaceing1),str(age1),str(totalfloor1)]
 		print(output)
+		os.system("python output_page.py")
 		sys.exit()
 		
 	def close_application(self):
